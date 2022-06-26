@@ -21,7 +21,7 @@ h1{
 
     color: #716FC3;
 
-    text-shadow: 3px 4px 0px #A4DEE0, 7px 7px 0px #F49CFE;
+    // text-shadow: 3px 4px 0px #A4DEE0, 7px 7px 0px #F49CFE;
 }
 
 .flex{
@@ -137,9 +137,6 @@ h1{
         text-align: center;
 
         color: #716FC3;
-
-        text-shadow: 3px 4px 0px #A4DEE0, 7px 7px 0px #F49CFE;
-        // 
     }
 
     .swiper {
@@ -207,7 +204,7 @@ h1{
 
 .con4{
     .global-block{
-        margin-top: -4px;
+        margin-top: -5px;
         padding: 80px 0px;
         background: linear-gradient(rgba(185, 234, 235, 0.45), rgba(168, 225, 226, 0.45));
 
@@ -244,11 +241,11 @@ h1{
             display: flex;
             flex-flow: row wrap;
             justify-content:space-around;
-            max-width: 1180px;
+            max-width: 1300px;
             margin: auto;
             padding: 0px 20px;
             .card{
-                width: 22%;
+                width: 28%;
                 min-width: 200px;
                 
                 @media screen and (max-width: 480px){
@@ -257,8 +254,9 @@ h1{
 
                 margin: 30px;
 
-                background: #FFFFFF;
-                border-radius: 10px;
+                background: url('../images/blest.png') #bab8fa;
+                background-size: 250px;
+                border-radius: 8px;
                 text-align: center;
                 img{
                     width: 70%;
@@ -266,32 +264,37 @@ h1{
                     padding-top: 20px;
                 }
                 h3{
-                    font-family: 'Montserrat';
+                    font-family: 'Montserrat SemiBold';
                     font-style: normal;
                     font-weight: 400;
                     font-size: 26px;
                     line-height: 82.5%;
-                    color: #5452B6;
-                    height: 40px;
+                    //color: #5452B6;
+                    color: #ffffff;
+                    //height: 40px;
                     margin-top: 5px;
+                    margin-bottom: 10px;
                 }
                 p{
                     font-family: 'Montserrat';
                     font-style: normal;
                     font-weight: 400;
-                    font-size: 20px;
-                    line-height: 82.5%;
+                    font-size: 18px;
+                    line-height: 100%;
                     text-align: center;
                     padding: 0px 15px ;
-                    color: #5C5AA6;
-                    height: 70px;
+                    //color: #5C5AA6;
+                    height: 50px;
+
+
+                    color: #fff;
                 }
                 button{
                     width: 180px;
-                    height: 49px;
-                    background: #716FC3;
-                    box-shadow: 0px 0px 23px 1px #716FC3;
-                    border-radius: 3px;
+                    height: 80px;
+                    //background: #716FC3;
+                    //box-shadow: 0px 0px 23px 1px #716FC3;
+                    //border-radius: 3px;
                     border: none;
                 
                     font-family: 'Montserrat';
@@ -299,19 +302,25 @@ h1{
                     font-weight: 600;
                     font-size: 20px;
                     line-height: 24px;
-                    color: #FFFFFF;
+                    //color: #FFFFFF;
 
-                    margin-bottom: 20px;
+                    color: #F49CFE;
+                    //background-color: #ffffff00;
+                    background: url('../images/Cloud1.png') #ffffff00 no-repeat;
+                    background-size: 100% 200%;
+                    background-position: center;
+                    margin-bottom: 15px;
 
                     cursor: pointer;
                     transition: 1s;
-                
-                    &:hover{
-                        transition: 1s;
-                        background: #55549c;
-                    }
-                
                 }
+            }
+
+            .card:nth-child(2n){
+                transform: rotate(3deg);
+            }
+            .card:nth-child(2n-1){
+                transform: rotate(-3deg);
             }
 
            }
@@ -326,21 +335,21 @@ h1{
 
     #market3{
         background: url('../images/market/market3.svg') no-repeat;
-        background-size: 60%;
+        background-size: 50%;
         background-position: center;
     }
     #market3:hover {
         background: url('../images/market/market3\(2\).svg') no-repeat;
-        background-size: 60%;
+        background-size: 50%;
         background-position: center;
     }
     #market4{
         background: url('../images/market/4.svg') no-repeat;
-        background-size: 50%;
+        background-size: 40%;
         background-position: center;
         &:hover {
             background: url('../images/market/4-2.svg') no-repeat;
-            background-size: 50%;
+            background-size: 40%;
             background-position: center;
         }
     }
@@ -349,11 +358,11 @@ h1{
         height: 200px;
         margin: auto;
         background: url('../images/market/5.svg') no-repeat;
-        background-size: 35%;
+        background-size: 30%;
         background-position: center;
         &:hover {
             background: url('../images/market/5-2.svg') no-repeat;
-            background-size: 35%;
+            background-size: 30%;
             background-position: center;
         }
     }
@@ -362,11 +371,11 @@ h1{
         height: 200px;
         margin: auto;
         background: url('../images/market/6.svg') no-repeat;
-        background-size: 60%;
+        background-size: 50%;
         background-position: center;
         &:hover {
             background: url('../images/market/6-2.svg') no-repeat;
-            background-size: 60%;
+            background-size: 50%;
             background-position: center;
         }
     }
@@ -388,11 +397,11 @@ h1{
         height: 200px;
         margin: auto;
         background: url('../images/market/8.svg') no-repeat;
-        background-size: 50%;
+        background-size: 30%;
         background-position: center;
         &:hover {
             background: url('../images/market/8-2.svg') no-repeat;
-            background-size: 50%;
+            background-size: 30%;
             background-position: center;
         }
     }
@@ -401,11 +410,11 @@ h1{
         height: 200px;
         margin: auto;
         background: url('../images/market/9.svg') no-repeat;
-        background-size: 50%;
+        background-size: 40%;
         background-position: center;
         &:hover {
             background: url('../images/market/9-2.svg') no-repeat;
-            background-size: 50%;
+            background-size: 40%;
             background-position: center;
         }
     }
@@ -414,11 +423,11 @@ h1{
         height: 200px;
         margin: auto;
         background: url('../images/market/10.svg') no-repeat;
-        background-size: 50%;
+        background-size: 40%;
         background-position: center;
         &:hover {
             background: url('../images/market/10-2.svg') no-repeat;
-            background-size: 50%;
+            background-size: 40%;
             background-position: center;
         }
     }
@@ -427,11 +436,11 @@ h1{
         height: 200px;
         margin: auto;
         background: url('../images/market/11.svg') no-repeat;
-        background-size: 80%;
+        background-size: 70%;
         background-position: center;
         &:hover {
             background: url('../images/market/11-2.svg') no-repeat;
-            background-size: 80%;
+            background-size: 70%;
             background-position: center;
         }
     }
@@ -440,11 +449,11 @@ h1{
         height: 200px;
         margin: auto;
         background: url('../images/market/12.svg') no-repeat;
-        background-size: 80%;
+        background-size: 60%;
         background-position: center;
         &:hover {
             background: url('../images/market/12-2.svg') no-repeat;
-            background-size: 80%;
+            background-size: 60%;
             background-position: center;
         }
     }
@@ -453,11 +462,11 @@ h1{
         height: 200px;
         margin: auto;
         background: url('../images/market/13.svg') no-repeat;
-        background-size: 18%;
+        background-size: 12%;
         background-position: center;
         &:hover {
             background: url('../images/market/13-2.svg') no-repeat;
-            background-size: 18%;
+            background-size: 12%;
             background-position: center;
         }
     }
@@ -477,19 +486,19 @@ h1{
 
 .con6{
     .global-block{
-        margin-top: -5px;
+        margin-top: -6px;
         padding: 10px 0px;
         background: rgba(248, 184, 255, 0.5);;
 
         .flex-market{
             display: flex;
             flex-flow: row wrap;
-            justify-content:space-around;
+            justify-content:center;
             max-width: 1180px;
             margin: auto;
             padding: 0px 20px;
             .card{
-                width: 22%;
+                width: 28%;
                 min-width: 200px;
                 
                 @media screen and (max-width: 480px){
@@ -498,40 +507,47 @@ h1{
 
                 margin: 30px;
 
-                background: #FFFFFF;
-                border-radius: 10px;
+                background: url('../images/blest.png') #bab8fa;
+                background-size: 250px;
+                border-radius: 8px;
                 text-align: center;
                 img{
-                    width: 70%;
+                    width: auto ;
                     height: 180px;
                     padding-top: 20px;
                 }
                 h3{
-                    font-family: 'Montserrat';
+                    font-family: 'Montserrat SemiBold';
                     font-style: normal;
                     font-weight: 400;
                     font-size: 26px;
                     line-height: 82.5%;
-                    color: #5452B6;
+                    //color: #5452B6;
+                    color: #ffffff;
                     height: 40px;
+                    margin-top: 5px;
+                    margin-bottom: 10px;
                 }
                 p{
                     font-family: 'Montserrat';
                     font-style: normal;
                     font-weight: 400;
-                    font-size: 20px;
-                    line-height: 82.5%;
+                    font-size: 18px;
+                    line-height: 100%;
                     text-align: center;
                     padding: 0px 15px ;
-                    color: #5C5AA6;
-                    height: 100px;
+                    //color: #5C5AA6;
+                    height: 50px;
+
+
+                    color: #fff;
                 }
                 button{
                     width: 180px;
-                    height: 49px;
-                    background: #716FC3;
-                    box-shadow: 0px 0px 23px 1px #716FC3;
-                    border-radius: 3px;
+                    height: 80px;
+                    //background: #716FC3;
+                    //box-shadow: 0px 0px 23px 1px #716FC3;
+                    //border-radius: 3px;
                     border: none;
                 
                     font-family: 'Montserrat';
@@ -539,19 +555,26 @@ h1{
                     font-weight: 600;
                     font-size: 20px;
                     line-height: 24px;
-                    color: #FFFFFF;
+                    //color: #FFFFFF;
 
-                    margin-bottom: 20px;
+                    color: #F49CFE;
+                    //background-color: #ffffff00;
+                    background: url('../images/Cloud1.png') #ffffff00 no-repeat;
+                    background-size: 100% 200%;
+                    background-position: center;
+                    margin-bottom: 15px;
 
                     cursor: pointer;
                     transition: 1s;
                 
-                    &:hover{
-                        transition: 1s;
-                        background: #55549c;
-                    }
-                
                 }
+            }
+
+            .card:nth-child(2n){
+                transform: rotate(3deg);
+            }
+            .card:nth-child(2n-1){
+                transform: rotate(-3deg);
             }
 
            }
