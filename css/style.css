@@ -506,6 +506,33 @@ h1 {
   transform: rotate(-3deg);
 }
 
+.con6-1 {
+  padding: 100px 0px;
+}
+.con6-1 .swiper {
+  width: 100%;
+  height: 100%;
+  max-width: 1080px;
+  margin: auto;
+}
+.con6-1 .swiper-slide {
+  margin-top: 40px;
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  /* Center slide text vertically */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.con6-1 .swiper-slide img {
+  display: block;
+  width: 100%;
+  height: auto;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
 .con7 .flex {
   padding: 60px 0px;
   display: flex;

@@ -164,10 +164,20 @@
         </div>
         <img src="./images/wave4.svg" alt="" id="img-global" width="100%">
     </section>
+    <section class="con6-1">
+        <div class="swiper mySwiper3">
+            <h1>Книга рецептов</h1>
+            <div class="swiper-wrapper">
+              <div class="swiper-slide"><img src="./images/kalaj/photo1656337545.jpeg" alt=""></div>
+              <div class="swiper-slide"><img src="./images/kalaj/photo1656337551.jpeg" alt=""></div>
+            </div>
+            <div class="swiper-pagination"></div>
+        </div>
+    </section>
     <section class="con5">
         <h1>Промо-ролик</h1>
         <div>
-            <video src="./video/kaif.mp4" controls></video>
+            <video src="./video/mult.mp4" controls poster="./video/IMG_1538.PNG"></video>
         </div>
     </section>
     <section class="con6">
@@ -208,6 +218,17 @@
             </div>
         </div>
         <img src="./images/wave6.svg" alt="" id="img-global" width="100%">
+    </section>
+    <section class="con6-1">
+        <div class="swiper mySwiper3">
+            <h1>Аксессуары <br> в использовании</h1>
+            <div class="swiper-wrapper">
+              <div class="swiper-slide"><img src="./images/kalaj/книга и ключ.png" alt=""></div>
+              <div class="swiper-slide"><img src="./images/kalaj/наклейки.png" alt=""></div>
+              <div class="swiper-slide"><img src="./images/kalaj/сквиши.png" alt=""></div>
+            </div>
+            <div class="swiper-pagination"></div>
+        </div>
     </section>
     <section class="con7">
         <h1>Контакты</h1>
@@ -251,8 +272,13 @@
           prevEl: ".swiper-button-prev",
         },
       });
-     
-      </script>
+      var swiper = new Swiper(".mySwiper3", {
+        pagination: {
+          el: ".swiper-pagination",
+          dynamicBullets: true,
+        },
+      });
+     </script>
     
 </body>
 </html>
